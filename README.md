@@ -26,7 +26,7 @@ L'interazione con il programma avviene unicamente da tastiera e solo quando il f
 + **Correzione della prospettiva**
     - <kbd>Invio</kbd>  seleziona i vertici attualmente visualizzati
     - <kbd>Esc</kbd>    termina l'esecuzione del programma
-+ **Rilevazione delle tracce**
++ **Rilevamento delle tracce**
     - <kbd>↓</kbd>/<kbd>↑</kbd> scorre i parametri
     - <kbd>→</kbd>/<kbd>←</kbd> modifica il parametro attualmente selezionato
     - <kbd>0</kbd>     ripristina i valori predefiniti dei parametri
@@ -86,7 +86,7 @@ A seconda dello stato di un raggio, esso viene colorato diversamente nella tabel
 3. Si esegue l'algoritmo di approssimazione della forma del contorno `approxPolyDP` sul contorno così trovato, al fine di ottenere il quadrilatero che circonda la piastra nera.
 4. Si applicano operazioni di trasformazione delle matrici per trasformare l'area sottesa dal quadrilatero nell'immagine originale, in modo che diventi quadrata.
 
-### Rilevazione delle tracce
+### Rilevamento delle tracce
 
 #### Terminologia
 - traccia: insieme di pixels bianchi contigui che rappresentano parte di una scia visibile di una radiazione;
@@ -161,9 +161,9 @@ Si ripetetono le operazioni da 1 a 5 per i frames successivi, con le seguenti mo
 
 ## Demo
 
-Dai frames di seguito si può notare l'evoluzione un raggio (arancio) alla comparsa di nuove tracce (verdi/gialle); esso viene visualizzato solo a partire dal terzo frame dalla sua comparsa iniziale per evitare falsi positivi.
+Dai frames di seguito si può notare l'evoluzione di un raggio (arancio) alla comparsa di nuove tracce (verdi/gialle); esso viene visualizzato solo a partire dal terzo frame dalla sua comparsa iniziale per evitare falsi positivi.
 
-#### Legenda
+### Legenda
 
 - **Verde**: contorni delle tracce
 - **Giallo**: segmenti (approssimazione delle tracce)
@@ -171,15 +171,15 @@ Dai frames di seguito si può notare l'evoluzione un raggio (arancio) alla compa
 - **Rosa**: connessioni fra segmenti
 - **Arancio**: raggi completi
 
-#### Video
+### Video
 
 https://user-images.githubusercontent.com/60780098/170274794-e93c816b-2591-48e0-8508-afc9db2814f9.mp4
 
 
-#### Prospettiva
+### Prospettiva
 ![](demo/perspective.png)
 
-#### Tracking
+### Tracking
 
 | ![](demo/1-1.png) | ![](demo/1-2.png) |
 |-------------------|-------------------|
