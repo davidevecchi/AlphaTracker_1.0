@@ -31,7 +31,7 @@ L'interazione con il programma avviene unicamente da tastiera e solo quando il f
     - <kbd>→</kbd>/<kbd>←</kbd> modifica il parametro attualmente selezionato
     - <kbd>0</kbd>     ripristina i valori predefiniti dei parametri
     - <kbd>+</kbd>     pausa/play (se in pausa, è possibile premere un tasto qualsiasi per avanzare al frame successivo)
-    - <kbd>Invio</kbd><kbd>Esc</kbd><kbd>Spazio</kbd>  termina l'esecuzione del programma
+    - <kbd>Invio</kbd>/<kbd>Esc</kbd>/<kbd>Spazio</kbd>  termina l'esecuzione del programma
 
 
 ### Schermata di tracking
