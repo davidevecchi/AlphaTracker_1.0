@@ -2,6 +2,15 @@
 
 Alpha Tracker è un software scritto in C++ che utilizza la libreria OpenCV (Open Source Computer Vision Library) per rilevare in tempo reale le tracce di particelle alfa rivelate dalla camera a nebbia con celle di Peltier. La cattura del video può avvenire tramite fotocamera integrata, IP camera o da file video.
 
+## Usage
+
+```shell
+mkdir build-dir && cd build-dir
+cmake ..
+make
+./main ..
+```
+
 ## Istruzioni
 
 ### Setup (Raspberry Pi)
