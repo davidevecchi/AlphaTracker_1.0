@@ -73,9 +73,9 @@ L'interazione con il programma avviene unicamente da tastiera e solo quando il f
 Modificabili in `settings.ini`
 #### Eventi
 A seconda dello stato di un raggio, esso viene colorato diversamente nella tabella:
-- i raggi in fase di validazione sono colorati in arancione, a significare che il loro tempo di vita è ancora troppo breve per confermare che non siano falsi positivi;
-- i raggi confermati che hanno un tempo di vita superiore ai 3 frames e che sono ancora visibili sul video sono colorati di verde;
-- i raggi confermati che non sono più visibili sono visualizzati in bianco.
+- **arancio**: raggi in fase di validazione, a significare che il loro tempo di vita è ancora troppo breve per confermare che non siano falsi positivi;
+- **verde**: raggi confermati che hanno un tempo di vita superiore ai 3 frames e che sono ancora visibili sul video;
+- **bianco**: raggi confermati che non sono più visibili.
 
 
 ## Funzionamento del programma
