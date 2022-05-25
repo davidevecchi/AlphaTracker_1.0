@@ -1,0 +1,126 @@
+                      
+                     IMPOSTAZIONI
+   
+                      FOTOCAMERA                                           
+    ┌─ Nome ──────────────────────────────────────┐     
+    │  camera integrata                           │ 0
+    └─────────────────────────────────────────────┘
+
+                      FILE VIDEO                                           
+    ┌─ Percorso ──────────────────────────────────┐     
+    │ .../zeep/rootfs/home/pi/AlphaTracker/video/ │ 1
+    └─────────────────────────────────────────────┘
+    ┌─ File ──────────────────────────────────────┐     
+    │  source_0.mp4                               │ 2
+    └─────────────────────────────────────────────┘   
+
+                       IP CAMERA
+    ┌─ Indirizzo ─────────┐ ┌─ Porta ─────────────┐        
+    │  192.168.1.10       │ │  8080               │ 3 4
+    └─────────────────────┘ └─────────────────────┘
+    ┌─ Utente ────────────┐ ┌─ Password ──────────┐    
+    │  Raspberry          │ │  ************       │ 5 6
+    └─────────────────────┘ └─────────────────────┘
+                      
+───────────────────────────────────────────────────────────────────────────
+
+                       AVANZATE
+       
+    
+                      SALVATAGGIO                                           
+    ┌─ Percorso ──────────────────────────────────┐     
+    │  /zeep/rootfs/home/pi/AlphaTracker/video/   │ 
+    └─────────────────────────────────────────────┘
+
+    ┌───── RISOLUZIONI ─────┐ ┌──── VARIABILI ────┐
+    │                       │ │                   │
+    │ Schermo     1920x1080 │ │ fps output     24 │
+    │                       │ │ delay           1 │
+    ├ Fotocamera   640x480  │ │                   │
+    │                       │ │ mask            3 │
+    │ File video  1920x1080 │ │ background     10 │
+    │                       │ │ rays            1 │
+    │ IP camera   1920x1080 │ │ numbers         0 │
+    │                       │ │ contours        0 │
+    │ Output       480x480  │ │ segments        0 │
+    │                       │ │ ellipses        0 │
+    └───────────────────────┘ └───────────────────┘
+    
+    
+    
+    
+    
+───────────────────────────────────────────────────────────────────────────
+                      SALVATAGGIO                                           
+    ┌─ Percorso ──────────────────────────────────┐     
+    │  /zeep/rootfs/home/pi/AlphaTracker/video/   │ 1
+    └─────────────────────────────────────────────┘
+
+    ┌─ Schermo ───────────┐ ┌─ Fotocamera ────────┐        
+    │  1920x1080          │ │  640x480            │ 3 4
+    └─────────────────────┘ └─────────────────────┘
+    ┌─ File video ────────┐ ┌─ IP camera ─────────┐    
+    │  1920x1080          │ │  1920x1080          │ 5 6
+    └─────────────────────┘ └─────────────────────┘                                           
+───────────────────────────────────────────────────────────────────────────
+
+ ┌───── Visualizza ─────┐ ┌───────── Eventi ─────────┐
+ │                      │ │ ID  frame len  ang  life │
+ │ Maschera  originale  │ │ 1   12     53    3    3  │
+ │                      │ │ 2   65      5   32    6  │
+ ├ Sfondo    ██████░░░░ │ │ 3   89      3  -63   12  │
+ │                      │ │ 4   123    95   32    3  │
+ │ Tracce    [ ]        │ │ 5   156   456   -6    9  │
+ │                      │ │ 6   236   321   21   10  │
+ │ Numeri    [x]        │ │ 7   258    26    2    3  │
+ │                      │ │ 8   346    32   89    4  │
+ └──────────────────────┘ │ 9   489     2   90    8  │
+ ┌─────── Status ───────┐ │ 10  562     9   69   11  │
+ │                      │ │ 11  593    99   62    8  │
+ │   Conteggio     64   │ │ 12  687    65   65    7  │
+ │                      │ │ 13  726    65   89    9  │
+ │   FPS           24   │ │ 14  839    32    8    3  │
+ │                      │ │ 15  956    69    3    4  │ 
+ │   Tempo    120/420   │ │ 16  1003    9    1    7  │ 
+ │                      │ │ 420 1234  253  -69   13  │
+ └──────────────────────┘ └──────────────────────────┘ 
+
+
+
+192.168.1.121
+/home/zeep/code/AlphaTracker/video/source_0.mp4
+/run/media/zeep/rootfs/home/pi/AlphaTracker/video/source_0.mp4
+/run/media/zeep/rootfs/home/pi/AlphaTracker/video/source_20200206_130130.mp4
+/home/pi/AlphaTracker/video/source_20200206_125429.mp4
+/run/media/zeep/rootfs/home/pi/opencv/video/0_source.mp4
+
+
+#SETTINGS
+Camera=camera integrata
+Percorso=/home/zeep/code/AlphaTracker/video/
+File=source_0.mp4
+Indirizzo=192.168.1.121
+Porta=8080
+Utente=abc
+Password=123
+
+#SALVATAGGIO
+Percorso=/home/zeep/code/AlphaTracker/output/
+
+#RISOLUZIONI
+Schermo=1920x1080
+Fotocamera=640x480
+File_video=1920x1080
+IP_camera=1920x1080
+Output=480x480
+    
+#PARAMETRI
+Maschera=3
+Sfondo=10
+Tracce=1
+Numeri=0
+Ellissi=0
+Segmenti=0
+Contorni=0
+fps_out=24
+Delay=1

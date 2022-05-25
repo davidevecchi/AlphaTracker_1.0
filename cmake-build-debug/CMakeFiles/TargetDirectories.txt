@@ -1,0 +1,3 @@
+/home/zeep/Code/AlphaTracker/cmake-build-debug/CMakeFiles/main.dir
+/home/zeep/Code/AlphaTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zeep/Code/AlphaTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
