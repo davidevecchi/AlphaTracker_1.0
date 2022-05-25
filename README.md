@@ -177,6 +177,10 @@ Dai frames di seguito si può notare l'evoluzione un raggio (arancio) alla compa
 [![demo/demo.mp4](demo/demo.mp4)](demo/demo.mp4)
 
 
+https://user-images.githubusercontent.com/60780098/170274794-e93c816b-2591-48e0-8508-afc9db2814f9.mp4
+
+
+
 #### Prospettiva
 ![](demo/perspective.png)
 
