@@ -89,9 +89,9 @@ A seconda dello stato di un raggio, esso viene colorato diversamente nella tabel
 ### Rilevamento delle tracce
 
 #### Terminologia
-- traccia: insieme di pixels bianchi contigui che rappresentano parte di una scia visibile di una radiazione;
-- segmento: approssimazione di una traccia ad un segmento;
-- raggio: approssimazione di un insieme di segmenti allineati ad un altro segmento.
+- **Traccia**: insieme di pixels bianchi contigui che rappresentano parte di una scia visibile di una radiazione.
+- **Segmento**: approssimazione di una traccia ad un segmento.
+- **Raggio**: approssimazione di un insieme di segmenti allineati ad un altro segmento.
 
 #### Procedimento in breve
 1. Trasformare l'immagine di input in un'immagine binaria contenente le tracce (blob) presenti nel frame.
@@ -123,7 +123,7 @@ A seconda dello stato di un raggio, esso viene colorato diversamente nella tabel
       - centro coincidente con il punto medio del segmento;
       - asse maggiore parallelo al segmento;
       - asse maggiore lungo il doppio della lunghezza del segmento;
-      - asse minore con una lunghezza fissa arbitraria (circa 5 volte la larghezza di una traccia)
+      - asse minore con una lunghezza fissa arbitraria (circa 5 volte la larghezza di una traccia);
    4. si calcola il rapporto fra l'area dell'intersezione dei due ellissi e l'area dell'ellisse di `j`;
    5. se tale valore supera una certa soglia (10%), allora i due segmenti sono allineati e possono essere connessi; la connessione viene memorizzata in una lista di adiacenza (`join[i].push(j)`);
    6. altrimenti, se entrambi i segmenti sono più corti di una certa soglia, essi vengono connessi se la distanza fra i loro punti medi è inferiore ad un altro valore di soglia;

@@ -10,32 +10,6 @@ include_directories(
         include
 )
 
-#add_library(
-#        gui
-#        src/gui.cc
-#        include/gui.h
-#)
-#add_library(
-#        stack
-#        src/stack.cc
-#        include/stack.h
-#)
-#add_library(
-#        functions
-#        src/functions.cc
-#        include/functions.h
-#)
-#add_library(
-#        console
-#        src/console.cc
-#        include/console.h
-#)
-#add_library(
-#        settings
-#        src/settings.cc
-#        include/settings.h
-#)
-
 add_executable(
         main
         src/main.cc
