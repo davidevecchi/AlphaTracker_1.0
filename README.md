@@ -166,11 +166,11 @@ Dai frames di seguito si può notare l'evoluzione un raggio (arancio) alla compa
 ```
 /demo/demo.mp4
 ```
-| <img src="demo/1-1.png" alt="img" style="zoom:20%;" /> | <img src="demo/1-2.png" alt="img" style="zoom:20%;" /> |
-|--------------------------------------------------------|--------------------------------------------------------|
-| <img src="demo/1-3.png" alt="img" style="zoom:20%;" /> | <img src="demo/1-4.png" alt="img" style="zoom:20%;" /> |
-| <img src="demo/1-5.png" alt="img" style="zoom:20%;" /> | <img src="demo/2-1.png" alt="img" style="zoom:20%;" /> |
-| <img src="demo/2-2.png" alt="img" style="zoom:20%;" /> | <img src="demo/2-3.png" alt="img" style="zoom:20%;" /> |
+| ![](demo/1-1.png) | ![](demo/1-2.png) |
+|-------------------|-------------------|
+| ![](demo/1-3.png) | ![](demo/1-4.png) |
+| ![](demo/1-5.png) | ![](demo/2-1.png) |
+| ![](demo/2-2.png) | ![](demo/2-3.png) |
 
 #### Legenda
 - **Verde**: contorni delle tracce
