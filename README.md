@@ -174,6 +174,7 @@ Dai frames di seguito si può notare l'evoluzione un raggio (arancio) alla compa
 #### Video
 
 [demo/demo.mp4](demo/demo.mp4)
+[![demo/demo.mp4](demo/demo.mp4)](demo/demo.mp4)
 
 
 #### Prospettiva
