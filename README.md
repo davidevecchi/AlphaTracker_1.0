@@ -163,21 +163,27 @@ Si ripetetono le operazioni da 1 a 5 per i frames successivi, con le seguenti mo
 
 Dai frames di seguito si può notare l'evoluzione un raggio (arancio) alla comparsa di nuove tracce (verdi/gialle); esso viene visualizzato solo a partire dal terzo frame dalla sua comparsa iniziale per evitare falsi positivi.
 
-```
-/demo/demo.mp4
-```
-| ![](demo/1-1.png) | ![](demo/1-2.png) |
-|-------------------|-------------------|
-| ![](demo/1-3.png) | ![](demo/1-4.png) |
-| ![](demo/1-5.png) | ![](demo/2-1.png) |
-| ![](demo/2-2.png) | ![](demo/2-3.png) |
-
 #### Legenda
+
 - **Verde**: contorni delle tracce
 - **Giallo**: segmenti (approssimazione delle tracce)
 - **Blu**: ellissi attorno ai segmenti
 - **Rosa**: connessioni fra segmenti
 - **Arancio**: raggi completi
+
+#### Video
+
+```
+/demo/demo.mp4
+```
+
+#### Frames
+
+| ![](demo/1-1.png) | ![](demo/1-2.png) |
+|-------------------|-------------------|
+| ![](demo/1-3.png) | ![](demo/1-4.png) |
+| ![](demo/1-5.png) | ![](demo/2-1.png) |
+| ![](demo/2-2.png) | ![](demo/2-3.png) |
 
 ## Prossimamente
 
